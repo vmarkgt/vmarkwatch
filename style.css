@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    font-family: 'Bebas Neue', cursive;
+    flex-wrap: wrap;
+}
+
+.container-clock {
+    text-align: center;
+    ;
+}
+
+.container-clock h1 {
+    font-size: 15rem;
+    font-weight: 400;
+    color: aliceblue;
+    min-width: 100px;
+    margin-bottom: 0px;   
+}
+
+.container-clock p {
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+
+}
+
+.container-clock h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+@media screeen and (max-width: 720px){
+
+container-clock{
+
+    color: #52E5E7;
+}
+
+}
+
+
+}
+
+}
